@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Poppins",sans-serif;
+}
+body{
+    font-size: 1.5rem;
+}
+ul{
+    background-color: #ddd;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    transform: scale(1.2);
+    color: aquamarine;
+}
+li:hover a{
+    color: aquamarine;
+}
